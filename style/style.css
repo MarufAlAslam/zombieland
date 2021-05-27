@@ -1,0 +1,135 @@
+.gridss .col-1{
+    /* height: 8.33vw; */
+    /* width: 8.33vw; */
+    height: 256px;
+    width: 256px;
+    background-color: transparent;
+    border: 1px dotted white;
+    padding: 0 !important;
+    position: relative;
+}
+#mapImg{
+    width: 2048px;
+    height: 2048px;
+}
+.wrapper{
+    position: relative;
+    width: 2048px;
+    height: 2048px;
+}
+.gridss{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+input.btn.btn-dark.clearBtn {
+    height: 50px !important;
+    width: 180px !important;
+    /* display: none !important; */
+}
+.row{
+    max-width: 100%;
+    margin: auto;
+}
+input.btn {
+    display: inline-block !important;
+    width: 100% !important;
+    border-radius: unset;
+    height: 85.333px !important;
+}
+.btns {
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.col-1 .btns{
+    display: none;
+}
+/* p{
+    color: rgb(251, 255, 0);
+} */
+
+/* #mapUploader::-webkit-file-upload-button{
+    visibility: hidden !important;
+} */
+/* input[type=file]::file-selector-button {
+   visibility: hidden;
+  } */
+  #mapUploader::before {
+	content: 'Uploade a new map';
+	color: black;
+	display: inline-block;
+	background: red;
+}
+form.upform {
+    background-color: black;
+    color: white;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 11px;
+    margin: 0 !important;
+    position: relative;
+    right: -9px;
+    font-size: 14px !important;
+}
+.popup {
+    display: none;
+}
+.operatinalbtn{
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    z-index: 10;
+}
+#mapUploader{
+    display: none;
+}
+.uploadBtn {
+	background: black;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 10px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+
+    height: 50px;
+    width: 180px;
+}
+.btn.btn-dark {
+	background: black;
+	border: black;
+	color: white;
+	padding: 10px 20px;
+    border-radius: 10px;
+	margin: 10px;
+	display: inline-block;
+	width: 100%;
+
+    height: 50px;
+    width: 180px;
+}
+.btn.btn-dark.arrow-btn {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex !important;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.uploadBtn, .clearBtn{
+    display: none;
+}
